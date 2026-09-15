@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0"
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!-- WARNING: log4j 1.2.17 contains critical CVEs (CVE-2019-17571, CVE-2022-23305 etc.).
-     This module is ONLY for legacy systems stuck on Java 6/7.
-     New projects MUST use gxl-loggers-log4j-2. -->
+         This module is ONLY for legacy systems stuck on Java 6/7.
+         New projects MUST use gxl-loggers-log4j-2. -->
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>io.github.gapplex</groupId>
         <artifactId>gxl-loggers-log4j</artifactId>
@@ -12,11 +15,7 @@
     </parent>
 
     <artifactId>gxl-loggers-log4j-1</artifactId>
-
-    <properties>
-        <maven.compiler.release>8</maven.compiler.release>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>gxl-loggers-log4j-1</name>
 
     <dependencies>
         <dependency>

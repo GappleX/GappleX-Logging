@@ -1,4 +1,4 @@
-/*
+package sandbox;/*
  * Copyright 2026 GapplX
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,8 +19,6 @@ import io.github.gapplex.logax.EventField;
 import io.github.gapplex.logax.appender.AsyncAppender;
 import io.github.gapplex.logax.appender.ConsoleAppender;
 import io.github.gapplex.logax.Logax;
-import io.github.gapplex.logax.layout.JSONLayout;
-import io.github.gapplex.logax.layout.SimpleLayout;
 import io.github.gapplex.logax.layout.YouDefLayout;
 
 public class t1 {

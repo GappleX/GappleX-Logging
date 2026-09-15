@@ -12,6 +12,7 @@
     </parent>
 
     <artifactId>gxl-loggers</artifactId>
+    <name>gxl-loggers</name>
     <packaging>pom</packaging>
 
     <modules>
